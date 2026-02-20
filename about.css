@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f9f9f9;
+    color:#333;
+}
+
+/* Header */
+.about-header{
+    text-align:center;
+    padding:60px 20px;
+    background:#ff5a00;
+    color:white;
+}
+
+.about-header p{
+    margin-top:10px;
+}
+
+/* Founder Section */
+.founder-section{
+    padding:60px 15%;
+    background:white;
+}
+
+.founder-section h2{
+    margin-bottom:20px;
+    color:#ff5a00;
+}
+
+.founder-section p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* Website Info */
+.website-info{
+    padding:60px 15%;
+}
+
+.website-info h2{
+    margin-bottom:20px;
+    color:#ff5a00;
+}
+
+.website-info p{
+    margin-bottom:20px;
+    font-size:17px;
+    line-height:1.6;
+}

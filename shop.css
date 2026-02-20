@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f9f9f9;
+}
+
+/* Header */
+.shop-header{
+    text-align:center;
+    padding:60px 20px;
+    background:#ff5a00;
+    color:white;
+}
+
+.shop-header p{
+    margin-top:10px;
+}
+
+/* Products Grid */
+.products{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:60px 10%;
+    flex-wrap:wrap;
+}
+
+.product-card{
+    background:white;
+    width:250px;
+    padding:20px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-5px);
+}
+
+.product-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.product-card h3{
+    margin:15px 0 10px;
+}
+
+.price{
+    color:#ff5a00;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.product-card button{
+    padding:10px 20px;
+    border:none;
+    background:#ff5a00;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.product-card button:hover{
+    background:#e64a00;
+}
+
+/* Footer */
+.footer {
+    background: #f4f4f4;
+    padding: 50px 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    margin: 8px 0;
+    color: #555;
+    cursor: pointer;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.app-download p {
+    margin: 10px 0 15px;
+    color: #555;
+}
+
+.app-buttons img {
+    height: 45px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.social-icons i {
+    font-size: 18px;
+    margin-right: 15px;
+    background: #e0e0e0;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.copyright-payment {
+    margin-top: 20px;
+}
+
+.payment-icons img {
+    height: 25px;
+    margin-left: 30px;
+}
